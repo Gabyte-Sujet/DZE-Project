@@ -1,0 +1,187 @@
+@font-face {
+  font-family: BlackChancery;
+  src: url('fonts/BLKCHCRY.woff');
+}
+
+body {
+	font-family: BlackChancery;
+}
+
+.wrapper {
+	position: relative;
+	height: 100vh;
+}
+
+.wrapper a.logo {
+	width: 300px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 5%;
+}
+
+.wrapper a.logo img{
+	display: block;
+	width: 100%;
+}
+
+.wrapper .showcase-image {
+	position: absolute;	
+	left: 50%;
+	top: 53%;
+	width: 810px;
+	transform: translate(-50%, -50%);
+}
+
+.wrapper .showcase-image .box{
+	padding-bottom: 56%;
+	background-color: red;
+}
+
+.wrapper .showcase-image .box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	object-fit: cover;
+}
+
+.wrapper .down-arrow {
+	width: 26px;
+	margin: auto;
+	position: absolute;
+  bottom: 2%;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.wrapper .down-arrow .line {
+	width: 2px;
+	height: 45px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+.wrapper .down-arrow .triangle {
+	width: 10px;
+	height: 10px;
+	border-top: 5px solid black;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	margin: 0 auto
+}
+
+section.gallery {
+	margin-top: 60px;
+}
+
+section.gallery img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+/* Responsive */
+
+@media (max-height: 820px) { 
+	.wrapper .showcase-image {
+		width: 750px
+	}
+}
+
+@media (max-height: 740px) { 
+	.wrapper .showcase-image {
+		width: 640px
+	}
+}
+
+@media (max-height: 700px) {
+	.wrapper a.logo {
+		width: 250px;
+		top: 4%;
+	}
+
+	.wrapper .showcase-image {
+		width: 580px
+	}
+
+	.wrapper .down-arrow .line {
+    height: 32px;
+	}
+} 
+
+@media (max-width: 1199.98px) {
+	.wrapper a.logo {
+		width: 250px;
+		top: 4%;
+	}
+
+	.wrapper .showcase-image {
+		width: 580px
+	}
+
+	.wrapper .down-arrow .line {
+    height: 32px;
+	}
+} 
+
+@media (max-width: 991.98px) { 
+	.wrapper a.logo {
+    width: 205px;
+	}
+
+	.wrapper .showcase-image {
+    width: 510px;
+    top: 52%;
+	}
+
+	section.gallery img {
+		padding-top: 10px;
+	}
+}
+
+@media (max-width: 767.98px) { 
+	.wrapper a.logo {
+    width: 184px;
+	}
+
+	.wrapper .showcase-image {
+    width: 82%;
+	}
+
+	.wrapper .down-arrow {
+    bottom: 1%;
+	}
+
+	.wrapper .down-arrow .line {
+    height: 26px;
+	}
+}
+
+@media (max-width: 575.98px) { 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
